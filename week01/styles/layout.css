@@ -1,0 +1,58 @@
+:root {
+    --background-primary: #f0f0f0;
+    --background-secundary: #0a0c14;
+    --color-primary: #0a0c14;
+    --color-secundary: #f0f0f0;
+    --background: #6792ee;
+    --background-font: #354a75;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-primary);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav ul {
+    background-color: var(--background-secundary);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+nav ul a {
+    color: var(--background);
+    text-decoration: none;
+    padding: 20px;
+}
+
+header,
+footer {
+    text-align: center;
+    grid-column: 1/4;
+    margin: 0;
+    padding: 0;
+}
+main {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-font);
+    grid-column: 1/3;
+    min-height: calc(100vh - 168px);
+    color: var(--color-secundary);
+}
+footer{
+    height: 40px;
+    border-top: 3px solid var(--background-font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-secundary);
+    color: var(--background);
+}
