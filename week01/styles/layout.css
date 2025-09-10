@@ -29,6 +29,7 @@ nav ul {
 nav ul p {
     color: var(--background);
     padding: 10px;
+    text-decoration: none;
 }
 
 header,
