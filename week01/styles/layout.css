@@ -26,9 +26,8 @@ nav ul {
     margin: 0;
 }
 
-nav ul a {
+nav ul p {
     color: var(--background);
-    text-decoration: none;
     padding: 20px;
 }
 
