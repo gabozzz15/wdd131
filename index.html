@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 131 – Dynamic Web Fundamentals – Gabriel Bastardo</title>
-    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals - Gabriel Bastardo. Its a dynamic web with html, css and js, for learning purposes.">
+    <meta name="description"
+        content="WDD 131 – Dynamic Web Fundamentals - Gabriel Bastardo. Its a dynamic web with html, css and js, for learning purposes.">
     <meta name="author" content="Gabriel Bastardo">
     <link rel="stylesheet" href="styles/base.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header>
         <div class="header-content">
-        <span id="course-title">WDD 131 – Dynamic Web Fundamentals - Gabriel Bastardo</span>
-        <nav>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/gabriel-bastardo-4b1426357/">Linkedin</a></li>
-                <li><a href="https://byupw.instructure.com/">Canvas</a></li>
-                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/2?lang=eng&id=p17#p17">Scripture</a></li>
-                <li><a href="#">Final Project</a></li>
-            </ul>
-        </nav>
+            <span id="course-title">WDD 131 – Dynamic Web Fundamentals - Gabriel Bastardo</span>
+            <nav>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/gabriel-bastardo-4b1426357/">Linkedin</a></li>
+                    <li><a href="https://byupw.instructure.com/">Canvas</a></li>
+                    <li><a
+                            href="https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/2?lang=eng&id=p17#p17">Scripture</a>
+                    </li>
+                    <li><a href="#">Final Project</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
@@ -32,22 +39,26 @@
 
         <section class="card">
             <h2>About Me</h2>
-            <div class="imagesContainer">
-                <img src="/images/me.jpeg" alt="">
-            </div>
-            <div class="imagesContainer">
-                <img src="/images/venezuela.png" alt="">
-            </div>
-            <div class="textContainer">
-                <p>Hello! My name is Gabriel Bastardo and I am a web developer from Venezuela. I am currently expanding my knowledge in web development through the BYU-Pathway Worldwide program.</p>
-                <p>One of my favorite quotes from Scripture is: "And behold, I tell you these things that you may learn wisdom, that you may know that when you serve your fellow men, you serve only your God" (Mosiah 2:17).</p>
-            </div>
+            <article>
+                <p>Hello! My name is Gabriel Bastardo and I am a web developer from Venezuela. I am currently expanding
+                    my knowledge in web development through the BYU-Pathway Worldwide program.</p>
+                <div class="imagesContainer">
+                    <img src="/images/me.jpeg" alt="">
+                </div>
+            </article>
+            <article>
+                <div class="imagesContainer">
+                    <img src="/images/venezuela.png" alt="">
+                </div>
+                <p>One of my favorite quotes from Scripture is: "And behold, I tell you these things that you may learn
+                    wisdom, that you may know that when you serve your fellow men, you serve only your God" (Mosiah
+                    2:17).
+                </p>
+            </article>
         </section>
 
         <section class="card">
             <h2>Web Dev Resources</h2>
-            <div class="imagesContainer">
-            </div>
             <div class="textContainer">
                 <p>These are some of my favorite resources for web development:</p>
                 <ul>
@@ -62,7 +73,7 @@
 
     <footer>
         <p>
-            © 
+            ©
             <span id="currentyear"></span>
             Gabriel Bastardo,
             Venezuela
@@ -72,4 +83,5 @@
     </footer>
     <script src="scripts/getdates.js" defer></script>
 </body>
+
 </html>
