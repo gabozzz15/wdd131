@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD131 - Temple Album - Gabriel Bastardo</title>
+    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals - Gabriel Bastardo. Temple picture album showcasing beautiful LDS temples from around the world">
+    <meta name="author" content="Gabriel Bastardo">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css" media="(min-width: 768px)">
+
+    <script src="scripts/temples.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Temple Album</h1>
+            <button id="hamburger-btn" aria-label="Toggle navigation menu">☰</button>
+            <nav id="primary-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Old</a></li>
+                    <li><a href="#">New</a></li>
+                    <li><a href="#">Large</a></li>
+                    <li><a href="#">Small</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h2>Sacred Houses of Worship</h2>
+        <div class="gallery">
+            <figure>
+                <img src="images/temple.jpg" alt="Aba Nigeria Temple" loading="lazy">
+                <figcaption>Aba Nigeria Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="Accra Ghana Temple" loading="lazy">                
+                <figcaption>Accra Ghana Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="Anchorage Alaska Temple" loading="lazy">
+                <figcaption>Anchorage Alaska Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="Arequipa Peru Temple" loading="lazy">
+                <figcaption>Arequipa Peru Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="Asuncion Paraguay Temple" loading="lazy">
+                <figcaption>Barranquilla Colombia Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="Baton Rouge Louisiana Temple" loading="lazy">
+                <figcaption>Baton Rouge Louisiana Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="Bern Switzerland Temple" loading="lazy">
+                <figcaption>Bern Switzerland Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="Billings Montana Temple" loading="lazy">
+                <figcaption>Billings Montana Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple.jpg" alt="Bismarck North Dakota Temple" loading="lazy">
+                <figcaption>Brigham City Utah Temple</figcaption>
+            </figure>
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            © <span id="currentyear"></span> 🌄 Gabriel Bastardo, Venezuela
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
