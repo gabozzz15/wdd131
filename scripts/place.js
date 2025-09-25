@@ -6,7 +6,6 @@ document.getElementById("lastModified").textContent = document.lastModified;
 const temp = parseFloat(document.getElementById("temp").textContent);
 const wind = parseFloat(document.getElementById("wind").textContent);
 
-// Windchill formula (°C)
 function calculateWindChill(t, s) {
   return (
     13.12 +
@@ -16,7 +15,6 @@ function calculateWindChill(t, s) {
   ).toFixed(1);
 }
 
-// Apply conditions
 if (temp <= 10 && wind > 4.8) {
   document.getElementById("windchill").textContent = calculateWindChill(temp, wind) + " °C";
 } else {
