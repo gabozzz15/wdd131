@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD131 - Country Page - Gabriel Bastardo</title>
+    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals - Gabriel Bastardo. A simple webpage about my country Venezuela">
+    <meta name="author" content="Gabriel Bastardo">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css" media="screen and (min-width: 768px)">
+
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Venezuela</h1>
+  </header>
+
+  <!-- Hero Image -->
+  <picture>
+    <source srcset="images/salto-angel.webp" media="(min-width: 768px)">
+    <img src="images/salto-angel.webp" alt="Angel Falls in Canaima National Park" class="hero">
+  </picture>
+
+  <main>
+    <!-- Data Section -->
+    <section class="data card">
+      <h2>Data</h2>
+      <ul>
+        <li><strong>Area:</strong> 916,445 sq km</li>
+        <li><strong>Population:</strong> 28,500,000</li>
+        <li><strong>Capital:</strong> Caracas</li>
+        <li><strong>Language:</strong> Spanish</li>
+        <li><strong>Currency:</strong> Bolívar (VES)</li>
+        <li><strong>Time Zone:</strong> UTC−4</li>
+        <li><strong>Calling Code:</strong> +58</li>
+        <li><strong>Internet TLD:</strong> .ve</li>
+      </ul>
+    </section>
+
+    <!-- Weather Section -->
+    <section class="weather card">
+      <h2>Weather</h2>
+      <p><strong>Temperature:</strong> <span id="temp">28</span> °C</p>
+      <p><strong>Conditions:</strong> Partly Cloudy</p>
+      <p><strong>Wind:</strong> <span id="wind">12</span> km/h</p>
+      <p><strong>Wind Chill:</strong> <span id="windchill"></span></p>
+    </section>
+  </main>
+
+
+    <footer>
+        <p>
+            © <span id="currentyear"></span> 🌄 Gabriel Bastardo, Venezuela
+        </p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
