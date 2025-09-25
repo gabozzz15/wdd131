@@ -1,23 +1,26 @@
-main {
-  display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
-  align-items: start;
-  gap: 1rem;
-  margin-top: -200px; 
+@media (min-width: 768px) {
+    main {
+      display: grid;
+      grid-template-columns: 1fr 3fr 1fr;
+      align-items: start;
+      gap: 1rem;
+      margin-top: -200px; 
+    }
+    
+    .hero {
+      grid-column: 1 / 4;
+      width: 100%;
+      height: auto;
+    }
+    
+    .data {
+      grid-column: 1 / 2;
+    }
+    
+    .weather {
+      grid-column: 3 / 4;
+    }
 }
 
-.hero {
-  grid-column: 1 / 4;
-  width: 100%;
-  height: auto;
-}
-
-.data {
-  grid-column: 1 / 2;
-}
-
-.weather {
-  grid-column: 3 / 4;
-}
 
 

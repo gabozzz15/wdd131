@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="styles/place.css">
-    <link rel="stylesheet" href="styles/place-large.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="styles/place-large.css">
 
     <script src="scripts/place.js" defer></script>
 </head>
@@ -23,7 +23,7 @@
 
   <!-- Hero Image -->
   <picture>
-    <source srcset="images/salto-angel.webp" media="(min-width: 768px)">
+    <source srcset="images/salto-angel.webp">
     <img src="images/salto-angel.webp" alt="Angel Falls in Canaima National Park" class="hero">
   </picture>
 
@@ -45,11 +45,14 @@
 
     <!-- Weather Section -->
     <section class="weather card">
-      <h2>Weather</h2>
-      <p><strong>Temperature:</strong> <span id="temp">28</span> °C</p>
-      <p><strong>Conditions:</strong> Partly Cloudy</p>
-      <p><strong>Wind:</strong> <span id="wind">12</span> km/h</p>
-      <p><strong>Wind Chill:</strong> <span id="windchill"></span></p>
+        <div class="weather title">
+            <h2>Weather</h2>
+            <img src="images/weather.svg" alt="weather icon" id="weather-icon" width="40" height="40" class="weather-icon">
+        </div>
+        <p><strong>Temperature:</strong> <span id="temp">28</span> °C</p>
+        <p><strong>Conditions:</strong> Partly Cloudy</p>
+        <p><strong>Wind:</strong> <span id="wind">12</span> km/h</p>
+        <p><strong>Wind Chill:</strong> <span id="windchill"></span></p>
     </section>
   </main>
 

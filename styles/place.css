@@ -1,82 +1,82 @@
 :root {
-  --primary: #1e3d59;
-  --secondary: #f5f0e1;
-  --accent: #ff6e40;
-  --text: #222;
+    --primary: #1e3d59;
+    --secondary: #f5f0e1;
+    --accent: #ff6e40;
+    --text: #222;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: "Segoe UI", Arial, sans-serif;
-  color: var(--text);
-  background: var(--secondary);
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: var(--text);
+    background: var(--secondary);
 }
 
 header {
-  background-color: var(--primary);
-  color: white;
-  text-align: center;
-  padding: 1rem;
-  font-size: 1.5rem;
+    background-color: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
 }
 
 .hero {
-  width: 100%;
-  height: auto;
-  display: block;
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 main {
-  position: relative;
-  padding: 1rem;
+    position: relative;
+    padding: 1rem;
 }
 
 .card {
-  background: rgba(255, 255, 255, 0.8);
-  padding: 1rem;
-  margin: 1rem 0;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    background: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.title.weather {
+    display: flex;
+    justify-content: center;
+    background-color: #222;
+    background: var(--primary);
+    color: white;
+    padding: 0.3rem 0.6rem;
+    border-radius: 5px;
+}
 
-.weather h2::after {
-    content: url('../images/weather.svg');
-    width: 20px;
-    height: 20px;
+.data h2,
+.weather h2 {
+    background: var(--primary);
+    color: white;
+    padding: 0.3rem 0.6rem;
+    border-radius: 5px;
     display: inline-block;
-    margin-left: 10px;
-    vertical-align: middle;
-    
-}
-
-.data h2, .weather h2 {
-  background: var(--primary);
-  color: white;
-  padding: 0.3rem 0.6rem;
-  border-radius: 5px;
-  display: inline-block;
-  margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 ul {
-  list-style: none;
+    list-style: none;
 }
 
 li {
-  margin: 0.3rem 0;
+    margin: 0.3rem 0;
 }
 
 footer {
-  background-color: var(--primary);
-  color: white;
-  text-align: center;
-  padding: 1rem;
-  margin-top: 1rem;
-  font-size: 0.9rem;
+    background-color: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 0.9rem;
 }
