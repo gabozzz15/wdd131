@@ -1,0 +1,35 @@
+@media (min-width: 768px) {
+    #hamburger-btn {
+        display: none;
+    }
+    
+    #primary-nav {
+        display: flex;
+        position: static;
+        width: auto;
+        background-color: transparent;
+    }
+    
+    #primary-nav ul {
+        display: flex;
+        gap: 0.5rem;
+    }
+    
+    #primary-nav li {
+        border-bottom: none;
+    }
+    
+    #primary-nav a {
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+    }
+    
+    #primary-nav a:hover {
+        background-color: var(--accent-color);
+    }
+    
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+    }
+}
