@@ -1,0 +1,65 @@
+@media (min-width: 768px) {
+
+    header {
+        padding: 1.5rem 2rem;
+        border-radius: 10px 10px 0 0;
+        margin-bottom: 0;
+    }
+
+    .header-content {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: left;
+        gap: 1rem;
+    }
+
+    .logo {
+        height: 50px;
+        margin-bottom: 0;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+        margin-bottom: 0;
+    }
+
+    main {
+        padding: 2rem;
+    }
+
+    section {
+        padding: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    .color-schema {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .color-box {
+        padding: 2rem;
+    }
+
+    .scenario {
+        padding: 1.5rem;
+    }
+
+    .font-sample {
+        padding: 1.5rem;
+        font-size: 1.1rem;
+    }
+
+    .wireframe-description {
+        padding: 2rem;
+    }
+}

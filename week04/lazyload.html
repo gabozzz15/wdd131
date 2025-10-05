@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD131 - Lazy Loading Images</title>
+    <meta name="description" content="WDD131 - Lazy loading images demonstration showing progressive loading technique">
+    <meta name="author" content="Gabriel Bastardo">
+    
+    <link rel="stylesheet" href="styles/lazyload.css">
+    <script src="scripts/lazyload.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Lazy Loading Images</h1>
+    </header>
+
+    <main>
+        <h2>Scroll Down to Load Images</h2>
+        
+        <picture>
+            <img src="https://picsum.photos/400/600/?image=1" alt="Random image 1" loading="lazy" width="400" height="600">
+        </picture>
+        
+        <picture>
+            <img src="https://picsum.photos/400/600/?image=2" alt="Random image 2" loading="lazy" width="400" height="600">
+        </picture>
+        
+        <picture>
+            <img src="https://picsum.photos/400/600/?image=3" alt="Random image 3" loading="lazy" width="400" height="600">
+        </picture>
+        
+        <picture>
+            <img src="https://picsum.photos/400/600/?image=4" alt="Random image 4" loading="lazy" width="400" height="600">
+        </picture>
+        
+        <picture>
+            <img src="https://picsum.photos/400/600/?image=5" alt="Random image 5" loading="lazy" width="400" height="600">
+        </picture>
+        
+        <picture>
+            <img src="https://picsum.photos/400/600/?image=6" alt="Random image 6" loading="lazy" width="400" height="600">
+        </picture>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Gabriel Bastardo | Venezuela </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
